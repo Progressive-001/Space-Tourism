@@ -1,0 +1,21 @@
+.circle-num {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #9ca3af;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.circle-num.active{
+  color: #0B0D17;
+  background-color: white;
+}
+
+.space-image{
+    height: 590px;
+    max-width: 515px;
+    object-fit: cover;
+  }

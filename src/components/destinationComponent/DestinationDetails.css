@@ -1,0 +1,30 @@
+.nav-line {
+  position: relative;
+  display: inline-block;
+  color: #9ca3af;
+}
+.nav-line::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -12px; /* adjust as needed */
+  height: 3px;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.nav-line:hover::after {
+  background: #9ca3af;
+  opacity: 1;
+}
+
+.nav-line.active::after{
+    color: white;
+    background: white;
+    opacity: 1;
+}
+
+.nav-line.active{
+    color: white;
+}

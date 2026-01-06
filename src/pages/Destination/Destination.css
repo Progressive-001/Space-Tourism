@@ -1,0 +1,25 @@
+.destinationContainer{
+    background-image: url('/assets/destination/background-destination-desktop.jpg');
+    position: absolute;
+    top: 0;
+    /* background-color: #111827; */
+
+}
+
+@media (max-width: 320px) { }
+
+@media (max-width: 480px) { 
+    .container{
+        background-image: url('/assets/destination/background-destination-mobile.jpg');
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        background-image: url('/assets/destination/background-destination-tablet.jpg');
+    }
+}
+
+@media (max-width: 1024px) { }
+
+@media (max-width: 1280px) { }

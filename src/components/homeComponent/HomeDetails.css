@@ -1,0 +1,21 @@
+.home-details{
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    align-self: center;
+    justify-self: center;
+    gap: 14.0rem;
+}
+
+@media (max-width: 820px) {
+
+  .home-details{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5.0rem;
+
+     
+    }
+}
