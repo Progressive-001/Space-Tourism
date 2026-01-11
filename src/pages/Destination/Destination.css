@@ -1,5 +1,5 @@
 .destinationContainer{
-    background-image: url('/assets/destination/background-destination-desktop.jpg');
+    background-image: url('/Space-Tourism/assets/destination/background-destination-desktop.jpg');
     position: absolute;
     top: 0;
     /* background-color: #111827; */
@@ -10,13 +10,13 @@
 
 @media (max-width: 480px) { 
     .container{
-        background-image: url('/assets/destination/background-destination-mobile.jpg');
+        background-image: url('/Space-Tourism/assets/destination/background-destination-mobile.jpg');
     }
 }
 
 @media (max-width: 768px) {
     .container{
-        background-image: url('/assets/destination/background-destination-tablet.jpg');
+        background-image: url('/Space-Tourism/assets/destination/background-destination-tablet.jpg');
     }
 }
 

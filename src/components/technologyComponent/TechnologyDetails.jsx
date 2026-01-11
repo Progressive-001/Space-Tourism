@@ -78,7 +78,7 @@ export default function TechnologyDetails() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, ease: "easeInOut" }}
       >
-        <img src={`/assets/technology/image-${spaceLaunch}-portrait.jpg`} alt="" className='space-image w-full'/>
+        <img src={`/Space-Tourism/assets/technology/image-${spaceLaunch}-portrait.jpg`} alt="" className='space-image w-full'/>
       </motion.div>
 
     </div>
