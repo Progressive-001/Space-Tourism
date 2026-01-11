@@ -14,7 +14,7 @@ const Header = () => {
           <img src={logo} alt="logo-icon" className="h-14 ml-[40px]" />
         </NavLink>
 
-        <div className="h-0 border border-slate-600 min-w-[580px]  ml-[70px]" />
+        <div className="h-0 border border-slate-600 min-w-[580px]  ml-[0px]" />
       </div>
       
 
