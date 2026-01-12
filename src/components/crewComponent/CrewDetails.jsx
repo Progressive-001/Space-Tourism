@@ -83,7 +83,7 @@ export default function CrewDetails() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, ease: "easeInOut" }}
       >
-        <img src={`../assets/crew/image-${people}.webp`} alt="" />
+        <img src={`/assets/crew/image-${people}.webp`} alt="" />
       </motion.div>
 
     </div>

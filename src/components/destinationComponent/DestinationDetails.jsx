@@ -24,7 +24,7 @@ export default function DestinationDetails() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
         >
-          <img src={`../assets/destination/image-${planet}.webp`} alt="" />
+          <img src={`/assets/destination/image-${planet}.webp`} alt="" />
         </motion.div>
       </div>
         
