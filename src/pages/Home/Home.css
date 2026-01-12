@@ -1,5 +1,5 @@
 .container{
-    background-image: url('/Space-Tourism/assets/home/background-home-desktop.jpg');
+    background-image: url('../assets/home/background-home-desktop.jpg');
     position: absolute;
     top: 0;
     /* background-color: #111827; */
@@ -10,13 +10,13 @@
 
 @media (max-width: 480px) { 
     .container{
-        background-image: url('/Space-Tourism/assets/home/background-home-mobile.jpg');
+        background-image: url('../assets/home/background-home-mobile.jpg');
     }
 }
 
 @media (max-width: 820px) {
     .container{
-        background-image: url('/Space-Tourism/assets/home/background-home-tablet.jpg');
+        background-image: url('../assets/home/background-home-tablet.jpg');
     }
 }
 
